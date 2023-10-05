@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DalamudLibPath>C:\ffxiv\Data\Cara\XIVLauncher\addon\Hooks\dev</DalamudLibPath>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Dalamud">
+            <Private>false</Private>
+            <HintPath>$(DalamudLibPath)\Dalamud.dll</HintPath>
+        </Reference>
+        <Reference Include="ImGui.NET">
+            <Private>false</Private>
+            <HintPath>$(DalamudLibPath)\ImGui.NET.dll</HintPath>
+        </Reference>
+        <Reference Include="SimpleTweaksPlugin">
+            <Private>false</Private>
+            <HintPath>..\SimpleTweaksPlugin\bin\x64\Debug\SimpleTweaksPlugin.dll</HintPath>
+        </Reference>
+        <Reference Include="FFXIVClientStructs">
+            <Private>false</Private>
+            <HintPath>..\SimpleTweaksPlugin\bin\x64\Debug\FFXIVClientStructs.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>
