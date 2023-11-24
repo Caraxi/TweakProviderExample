@@ -6,7 +6,7 @@
         <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <DalamudLibPath>C:\ffxiv\Data\Cara\XIVLauncher\addon\Hooks\dev</DalamudLibPath>
+        <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev</DalamudLibPath>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="Dalamud">
